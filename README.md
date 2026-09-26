@@ -13,21 +13,16 @@ I'm a Higher Technician in Multiplatform Application Development (DAM), with a F
 ## 🛠️ Tech Stack
 
 ### Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=java,dart,js,kotlin,cpp" />
-</p>
+<img src="https://skillicons.dev/icons?i=java,dart,js,kotlin,cpp,python&perline=10" height="35" />
 
-### Frameworks & Technologies
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,flutter,html,css,firebase" />
-</p>
+### Frontend & Mobile
+<img src="https://skillicons.dev/icons?i=html,css,flutter&perline=10" height="35" />
+
+### Backend
+<img src="https://skillicons.dev/icons?i=spring,hibernate&perline=10" height="35" />
 
 ### Databases
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
-</p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&perline=10" height="35" />
 
-### Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,idea,vscode,androidstudio" />
-</p>
+### Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,github,docker,firebase,idea,androidstudio,vscode&perline=10" height="35" />
