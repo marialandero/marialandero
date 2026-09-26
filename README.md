@@ -1,4 +1,4 @@
-<h1 align="center">María Landero</h1>
+<h1 align="center">Hey there! I'm María Landero 👋</h1>
 <h3 align="center">Software Developer | Full Stack | Frontend & UI | AI & Automation</h3>
 
 ## 🌸 About me
