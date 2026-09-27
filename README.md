@@ -15,6 +15,7 @@
   <a href="mailto:marialandero96@gmail.com" title="Email"><img src="./assets/email-button.svg" height="30" alt="Email" /></a>
 </p>
 
+<br>
 
 <img src="./assets/section-about.svg" alt="About me">
 
