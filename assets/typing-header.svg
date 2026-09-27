@@ -1,0 +1,115 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="150"
+  viewBox="0 0 1000 150">
+
+  <style>
+    .terminal {
+      font-family: monospace;
+      font-size: 42px;
+      fill: #D8A0B3;
+    }
+
+    .typing {
+      animation: typing 1.6s steps(31, end) forwards;
+    }
+
+    .cursor {
+      animation:
+        cursorMove 1.6s steps(31, end) forwards,
+        blink 0.8s step-end infinite;
+    }
+
+    .subtitle {
+      font-family: monospace;
+      font-size: 20px;
+      fill: #B8A58C;
+      opacity: 0;
+      animation: subtitleFade 2.2s ease-out forwards;
+    }
+
+    @keyframes typing {
+      from {
+        clip-path: inset(0 100% 0 0);
+      }
+
+      to {
+        clip-path: inset(0 0 0 0);
+      }
+    }
+
+    @keyframes cursorMove {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(31ch);
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes subtitleFade {
+      from {
+        opacity: 0;
+        transform: translateY(5px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+
+  <!-- Saludo -->
+  <g class="terminal-line" transform="translate(500 0)">
+
+    <!-- Prompt fijo -->
+    <text
+      class="terminal"
+      x="-17ch"
+      y="55"
+      dominant-baseline="middle">
+      &gt;
+    </text>
+
+    <!-- Texto que se escribe -->
+    <text
+      class="terminal typing"
+      x="-15ch"
+      y="55"
+      dominant-baseline="middle">
+      Hey there! I'm María Landero :)
+    </text>
+
+    <!-- Cursor -->
+    <text
+      class="terminal cursor"
+      x="-15ch"
+      y="55"
+      dominant-baseline="middle">
+      _
+    </text>
+
+  </g>
+
+
+  <!-- Subtítulo -->
+  <text
+    class="subtitle"
+    x="50%"
+    y="115"
+    text-anchor="middle"
+    dominant-baseline="middle">
+    Software Developer | Full Stack | UI Design | AI &amp; Automation
+  </text>
+
+</svg>

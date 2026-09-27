@@ -1,0 +1,111 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="105"
+  viewBox="0 0 1000 105">
+
+  <style>
+    .typing-mask {
+      animation: typing 1.2s steps(8, end) forwards;
+    }
+
+    .cursor {
+      font-family: monospace;
+      font-size: 30px;
+      font-weight: bold;
+      fill: #D8A0B3;
+      animation:
+        cursor-move 1.2s steps(8, end) forwards,
+        cursor-blink 0.6s step-end 1.2s 3,
+        cursor-hide 0s 3s forwards;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 144px;
+      }
+    }
+
+    @keyframes cursor-move {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(133px);
+      }
+    }
+
+    @keyframes cursor-blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes cursor-hide {
+      to {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <!-- Número -->
+  <text
+    x="0"
+    y="28"
+    font-family="monospace"
+    font-size="16"
+    fill="#B8A58C">
+    01.
+  </text>
+
+  <!-- Máscara para la escritura -->
+  <defs>
+    <clipPath id="typing-clip">
+      <rect
+        class="typing-mask"
+        x="0"
+        y="38"
+        width="0"
+        height="40"
+      />
+    </clipPath>
+  </defs>
+
+  <!-- Título -->
+  <text
+    x="0"
+    y="68"
+    font-family="monospace"
+    font-size="30"
+    font-weight="bold"
+    fill="#D8A0B3"
+    clip-path="url(#typing-clip)">
+    ABOUT ME
+  </text>
+
+  <!-- Cursor -->
+  <text
+    class="cursor"
+    x="0"
+    y="68">
+    |
+  </text>
+
+  <!-- Línea -->
+  <line
+    x1="0"
+    y1="88"
+    x2="980"
+    y2="88"
+    stroke="#B8A58C"
+    stroke-width="1"
+    opacity="0.35"
+  />
+
+</svg>

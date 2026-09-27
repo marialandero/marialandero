@@ -1,0 +1,57 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="75"
+  viewBox="0 0 1000 75">
+
+  <style>
+    .sign {
+      animation: glow 2.8s ease-in-out infinite;
+    }
+
+    .box {
+      fill: none;
+      stroke: #D8A0B3;
+      stroke-width: 1.5;
+    }
+
+    .text {
+      font-family: monospace;
+      font-size: 17px;
+      letter-spacing: 2px;
+      fill: #D8A0B3;
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        opacity: 0.35;
+        filter: drop-shadow(0 0 0px #D8A0B3);
+      }
+
+      50% {
+        opacity: 1;
+        filter: drop-shadow(0 0 5px #D8A0B3);
+      }
+    }
+  </style>
+
+  <g class="sign">
+    <rect
+      class="box"
+      x="410"
+      y="15"
+      width="180"
+      height="45"
+      rx="6"
+    />
+
+    <text
+      class="text"
+      x="500"
+      y="38"
+      text-anchor="middle"
+      dominant-baseline="middle">
+      LET'S CONNECT!
+    </text>
+  </g>
+</svg>

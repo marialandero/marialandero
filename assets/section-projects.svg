@@ -1,0 +1,39 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="105"
+  viewBox="0 0 1000 105">
+
+  <!-- Número -->
+  <text
+    x="0"
+    y="28"
+    font-family="monospace"
+    font-size="16"
+    fill="#B8A58C">
+    03.
+  </text>
+
+  <!-- Título -->
+  <text
+    x="0"
+    y="68"
+    font-family="monospace"
+    font-size="30"
+    font-weight="bold"
+    fill="#D8A0B3">
+    PROJECTS
+  </text>
+
+  <!-- Línea -->
+  <line
+    x1="0"
+    y1="88"
+    x2="980"
+    y2="88"
+    stroke="#B8A58C"
+    stroke-width="1"
+    opacity="0.35"
+  />
+
+</svg>
