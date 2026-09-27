@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mar%C3%ADa-landero-contreras-247b8a362/" title="LinkedIn"><img src="./assets/linkedin-button.svg" height="30" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:marialandero96@gmail.com" title="Email"><img src="./assets/email-button.svg" height="30" alt="Email" /></a>
 </p>
 

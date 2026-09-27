@@ -25,7 +25,7 @@
         width: 0;
       }
       to {
-        width: 175px;
+        width: 185px;
       }
     }
 
@@ -34,7 +34,7 @@
         transform: translateX(0);
       }
       to {
-        transform: translateX(170px);
+        transform: translateX(175px);
       }
     }
 

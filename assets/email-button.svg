@@ -1,19 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="120"
+  width="75"
   height="30"
-  viewBox="0 0 120 30">
-
-  <!-- Email text -->
-  <text
-    x="35"
-    y="16"
-    font-family="monospace"
-    font-size="14"
-    fill="#B8A58C"
-    dominant-baseline="middle">
-    Email
-  </text>
+  viewBox="0 0 75 30">
 
   <!-- Envelope -->
   <g
@@ -24,14 +13,25 @@
     stroke-linejoin="round">
 
     <rect
-      x="79"
+      x="2"
       y="7"
       width="22"
       height="16"
       rx="2"/>
 
-    <path d="M80 9l10 8 10-8"/>
+    <path d="M3 9l10 8 10-8"/>
 
   </g>
+
+  <!-- Email text -->
+  <text
+    x="32"
+    y="16"
+    font-family="monospace"
+    font-size="14"
+    fill="#B8A58C"
+    dominant-baseline="middle">
+    Email
+  </text>
 
 </svg>
