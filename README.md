@@ -21,9 +21,9 @@
 
 *I'm a Software Developer who enjoys turning ideas into real applications.*
 
-*I mainly work with Java, Spring Boot and Flutter, and I also enjoy the visual side of development, especially UI design.*
+*I started out mainly building multiplatform applications with Java, Spring Boot and Flutter. Along the way, I became especially interested in the part users actually interact with: interfaces, visual details and user experience.*
 
-*I'm currently learning more about AI and automation, and exploring how I can use them in my projects and development workflow.*
+*Right now I'm taking that foundation further into AI and automation, experimenting with how both can become part of the applications I build.*
 
 
 
