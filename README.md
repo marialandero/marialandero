@@ -77,6 +77,7 @@
         <a href="https://github.com/" title="GitHub"><img src="https://skillicons.dev/icons?i=github" height="35" alt="GitHub" /></a>
         <a href="https://www.docker.com/" title="Docker"><img src="https://skillicons.dev/icons?i=docker" height="35" alt="Docker" /></a>
         <a href="https://firebase.google.com/" title="Firebase"><img src="https://skillicons.dev/icons?i=firebase" height="35" alt="Firebase" /></a>
+        <a href="https://supabase.com/" title="Supabase"><img src="https://skillicons.dev/icons?i=supabase" height="35" alt="Supabase" /></a>
         <a href="https://www.jetbrains.com/idea/" title="IntelliJ IDEA"><img src="https://skillicons.dev/icons?i=idea" height="35" alt="IntelliJ IDEA" /></a>
         <a href="https://developer.android.com/studio" title="Android Studio"><img src="https://skillicons.dev/icons?i=androidstudio" height="35" alt="Android Studio" /></a>
         <a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="https://skillicons.dev/icons?i=vscode" height="35" alt="Visual Studio Code" /></a>
