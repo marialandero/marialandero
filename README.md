@@ -84,6 +84,8 @@
         <a href="https://www.postman.com/" title="Postman"><img src="https://skillicons.dev/icons?i=postman" height="35" alt="Postman" /></a>
         <a href="https://www.figma.com/" title="Figma"><img src="https://skillicons.dev/icons?i=figma" height="35" alt="Figma" /></a>
         <a href="https://trello.com/" title="Trello"><img src="https://cdn.simpleicons.org/trello" height="35" alt="Trello" /></a>
+        <a href="https://render.com/" title="Render"><img src="https://cdn.simpleicons.org/render" height="35" alt="Render" /></a>
+        <a href="https://railway.com/" title="Railway"><img src="https://cdn.simpleicons.org/railway" height="35" alt="Railway" /></a>
       </td>
     </tr>
   </tbody>
